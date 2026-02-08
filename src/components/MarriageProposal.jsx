@@ -44,6 +44,7 @@ const MarriageProposal = ({ onAccept }) => {
                     src="/WhatsApp Image 2026-02-08 at 3.00.36 PM.jpeg"
                     alt="Will you marry me?"
                     className="proposal-image"
+                    loading="lazy"
                     onError={(e) => {
                         e.target.style.display = 'none';
                         e.target.parentElement.innerHTML = '<div class="proposal-placeholder">💍<br/>Add proposal.jpg to public folder</div>';

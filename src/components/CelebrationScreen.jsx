@@ -160,6 +160,7 @@ const CelebrationScreen = ({ onComplete }) => {
                                     <img
                                         src={currentMemory.src}
                                         alt={`Memory ${currentSlide + 1}`}
+                                        loading="lazy"
                                         onError={(e) => {
                                             e.target.style.display = 'none';
                                             e.target.parentElement.innerHTML = `<span>📷<br/>Cannot find: <strong>${currentMemory.src}</strong></span>`;
@@ -172,6 +173,7 @@ const CelebrationScreen = ({ onComplete }) => {
                                         loop
                                         muted
                                         playsInline
+                                        preload="metadata"
                                         onError={(e) => {
                                             e.target.style.display = 'none';
                                             e.target.parentElement.innerHTML = `<span>🎥<br/>Cannot find: <strong>${currentMemory.src}</strong></span>`;
