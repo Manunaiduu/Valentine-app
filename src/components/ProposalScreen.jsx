@@ -246,6 +246,13 @@ const ProposalScreen = ({ onAccept, audioRef }) => {
                 onMouseEnter={moveButton}
                 onTouchStart={(e) => {
                   e.preventDefault();
+                  e.stopPropagation();
+                  moveButton();
+                }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  // Do nothing - just move the button
                   moveButton();
                 }}
               >

@@ -71,6 +71,12 @@ const MarriageProposal = ({ onAccept }) => {
                     onMouseEnter={moveButton}
                     onTouchStart={(e) => {
                         e.preventDefault();
+                        e.stopPropagation();
+                        moveButton();
+                    }}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
                         moveButton();
                     }}
                 >

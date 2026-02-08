@@ -1336,6 +1336,146 @@ h1 {
   }
 }
 
+/* COMPREHENSIVE MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+
+  /* App Container */
+  .app-container {
+    padding: 10px !important;
+  }
+
+  /* Glass Card */
+  .glass-card {
+    padding: 30px 20px !important;
+    margin: 10px !important;
+  }
+
+  /* Proposal Screen */
+  .glass-card h1 {
+    font-size: 2rem !important;
+  }
+
+  .intro-text {
+    font-size: 1.1rem !important;
+  }
+
+  /* Slideshow responsive */
+  .slideshow-wrapper {
+    height: 400px !important;
+  }
+
+  .slide-caption {
+    font-size: 1.1rem !important;
+    padding: 15px !important;
+  }
+
+  /* Marriage Proposal */
+  .proposal-card {
+    padding: 35px 25px !important;
+    margin-top: 30px !important;
+  }
+
+  .proposal-title {
+    font-size: 2rem !important;
+  }
+
+  .proposal-subtitle {
+    font-size: 1.1rem !important;
+  }
+
+  .proposal-image-container {
+    height: 350px !important;
+  }
+
+  /* Buttons */
+  .btn-primary,
+  .btn-yes-marriage {
+    font-size: 1.1rem !important;
+    padding: 14px 32px !important;
+  }
+
+  .btn-no {
+    font-size: 0.95rem !important;
+    padding: 12px 28px !important;
+  }
+
+  /* Back Button */
+  .back-button {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 1.3rem !important;
+    top: 15px !important;
+    left: 15px !important;
+  }
+
+  /* Journey Timeline */
+  .timeline-label {
+    font-size: 0.85rem !important;
+  }
+
+  .timeline-years {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Extra small phones */
+  .glass-card {
+    padding: 25px 15px !important;
+  }
+
+  .glass-card h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .intro-text {
+    font-size: 1rem !important;
+  }
+
+  .slideshow-wrapper {
+    height: 320px !important;
+  }
+
+  .slide-caption {
+    font-size: 1rem !important;
+    padding: 12px !important;
+  }
+
+  .proposal-card {
+    padding: 25px 20px !important;
+  }
+
+  .proposal-title {
+    font-size: 1.7rem !important;
+  }
+
+  .proposal-subtitle {
+    font-size: 1rem !important;
+  }
+
+  .proposal-image-container {
+    height: 280px !important;
+  }
+
+  .btn-primary,
+  .btn-yes-marriage {
+    font-size: 1rem !important;
+    padding: 12px 28px !important;
+  }
+
+  .btn-no {
+    font-size: 0.9rem !important;
+    padding: 10px 24px !important;
+  }
+
+  .back-button {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 1.2rem !important;
+  }
+}
+
 /* Heart Burst */
 .heart-burst {
   position: relative;
